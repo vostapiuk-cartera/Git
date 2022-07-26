@@ -9,6 +9,7 @@ public class TestCase {
         int a = 1;
         int b = 0;
         int c = b + 1;
+        System.out.println("Verify test");
         Assert.assertEquals(c, a, "+ isn't working");
     }
 
